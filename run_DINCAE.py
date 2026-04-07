@@ -3,14 +3,9 @@
 
 import DINCAE
 
-
-#filename = "/path/to/file.nc"
-#varname = "SST"
-#outdir = "/path/to/output/dir"
-
-filename = r"E:\New_data_DINCAE\IR_DINCAE_ready_wind.nc"
-varname = "wind_speed"
-outdir = r"E:\dincaep\Output"
+filename = "/path/to/file.nc"
+varname = "wind_speed" #Sample variable name
+outdir = "/path/to/output/dir"
 
 
 DINCAE.reconstruct_gridded_nc(
